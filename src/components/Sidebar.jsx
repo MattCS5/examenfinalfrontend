@@ -3,13 +3,13 @@ import Link from "next/link";
 import { BadgeCheck, MenuSquare, UserRound, WalletCards } from "lucide-react";
 const Sidebar = () => {
   return (
-    <div className="flex flex-col bg-black text-white w-56 h-screen gap-2 p-3">
+    <div className="flex flex-col -z-10 text-white w-56 h-screen gap-2 p-3">
       <Link className="flex gap-3" href="/">
         <div className="bg-orange-500 rounded-full text-white p-6">
           Examen final
         </div>
       </Link>
-      <div className="flex flex-col bg-black text-white  h-screen gap-4 p-3">
+      <div className="flex flex-col  text-white  h-screen gap-4 p-3">
         <Link className="flex gap-3" href="/cardGenerator">
           <MenuSquare />
           <p>Card Generator</p>
